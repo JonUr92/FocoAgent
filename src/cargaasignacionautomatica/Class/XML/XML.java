@@ -22,8 +22,8 @@ public class XML {
         //Se crea un SAXBuilder para poder parsear el archivo
         SAXBuilder builder = new SAXBuilder();
         System.out.println(cargaasignacionautomatica.CargaAsignacionAutomatica.RutaProject+"task/CargaAsignaciones/config.xml");
-        File xmlFile = new File("config.xml" );
-        //File xmlFile = new File( cargaasignacionautomatica.CargaAsignacionAutomatica.RutaProject+"task/CargaAsignaciones/config.xml" );
+        //File xmlFile = new File("config.xml" );
+        File xmlFile = new File( cargaasignacionautomatica.CargaAsignacionAutomatica.RutaProject+"task/CargaAsignaciones/config.xml" );
         try{
             //Se crea el documento a traves del archivo
             Document document = (Document) builder.build( xmlFile );
