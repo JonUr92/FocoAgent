@@ -1,0 +1,15 @@
+<Configuration>
+	<Database>
+		<ip>191.102.35.99</ip>
+		<port>1104</port>
+		<name>foco</name>
+		<user>sa</user>
+		<password>ks1qnl.,.,2018</password>
+	</Database>
+	<Ftp>
+		<ip>localhost</ip>
+		<port>21</port>
+		<user>foco</user>
+		<password>F9o7c5O3.,2017</password>
+	</Ftp>
+</Configuration>
