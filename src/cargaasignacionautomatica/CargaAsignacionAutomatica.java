@@ -116,7 +116,7 @@ public class CargaAsignacionAutomatica {
             Mandante = ArrayMandanteCedente[0];
             Cedente = ArrayMandanteCedente[1];
 
-            String sDirectorio = RutaProject+"task/CargaAsignaciones/Asignaciones/"+RutaMandanteCedente;
+            String sDirectorio = RutaProject+"task/CargaAsignaciones/Asignaciones/"+RutaMandanteCedente;//Test
             //String sDirectorio = RutaProject+"Asignaciones/"+RutaMandanteCedente;
                 XML xml = new XML();
                 xml.LeerConfigXML();
